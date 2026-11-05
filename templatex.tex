@@ -1,0 +1,146 @@
+\documentclass{scrartcl}
+
+\usepackage[english]{babel}
+
+\usepackage[a4paper,top=1.5cm,bottom=2.2cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm,footskip=3mm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, allcolors={[RGB]{74,92,168}}}
+\usepackage{titling}
+\usepackage{tabularray}
+\usepackage{needspace}
+
+\title{Upcoming SIGWEB Supported Conferences}
+\author{%AUTHOR%}
+
+\begin{document}
+
+    \begin{titlepage}
+        \label{first}
+        \begin{center}
+            \includegraphics[width=\textwidth]{sigweb-banner.png}
+        \end{center}
+
+        \vspace*{-.5em}
+        \noindent\theauthor, %POSITION%
+        \vspace*{1.5em}
+
+        \noindent The Special Interest Group on Hypertext and the Web, SIGWEB was created in 1989 to support the community participating in the annual ACM Hypertext Conference. In its fourth decade, SIGWEB continues its efforts to support a wide range of communities and eight annual conferences. SIGWEB supports several specialized conferences, short courses, and workshops of different sizes, as well as the annual Hypertext Conference. SIGWEB sponsored conferences focus on timely topics in applied and computational hypertext and Web disciplines and provide a place for members and the entire applied Hypermedia and Web community to exchange ideas and to meet with and expand their network of colleagues. In this article, we provide a brief overview of SIGWEB sponsored conferences, in addition to events that are in cooperation with SIGWEB.
+
+        \vspace*{.6em}
+
+        \noindent DOI: %DOI% \hfill \url{http://doi.acm.org/%DOI%}
+
+        \par\noindent\rule{\textwidth}{0.1pt}
+
+        \vspace*{1.5em}
+
+        \noindent{\large\bfseries SIGWEB Sponsored Conferences\par}
+
+        \begin{table}[h!]
+            \centering
+            \begin{tblr}{
+                hline{1,2,Z} = {wd=0.25pt},
+                cells = {font=\small},
+                rows = {bg=white},
+                row{odd} = {bg=gray!8},
+                row{1} = {bg=white},
+                rowsep=1.45mm,
+                width=\linewidth,
+                column{3} = {wd = 3.8cm},
+                column{2} = {wd = 3cm},
+                column{1} = {wd = 2.8cm},
+                colspec = {lXXX}
+            }
+                \textbf{Conference} & \textbf{Dates} & \textbf{Location} & \textbf{Website} \\
+                %\textbf{\hyperref[lab:umap2023]{UMAP 2023}}  & June 26 -- 29, 2023  & Limassol, Cyprus    & \url{https://www.um.org/umap2023/}  \\
+                %TABLE_BEGIN
+                %TEMPLATE:\textbf{\hyperref[lab:%EVENT_ID%]{%EVENT_SHORT%}}  & %MONTH_SHORT_BEGIN% %BEGIN_DAY% -- %MONTH_SHORT_END% %END_DAY%, %YEAR%   & %LOCATION%  & %URL% \\
+                %TABLE_CONTENT
+                %TABLE_END
+            \end{tblr}
+        \end{table}
+
+        \vspace{1.5em}
+        \noindent{\large\bfseries SIGWEB Cooperating Conferences\par}
+
+        \begin{table}[h!]
+            \centering
+            \begin{tblr}{
+                hline{1,2,Z} = {wd=0.25pt},
+                cells = {font=\small},
+                rows = {bg=white},
+                row{odd} = {bg=gray!8},
+                row{1} = {bg=white},
+                rowsep=1.45mm,
+                width=\linewidth,
+                column{3} = {wd = 3.8cm},
+                column{2} = {wd = 3cm},
+                column{1} = {wd = 2.8cm},
+                colspec = {lXXX}
+            }
+                \textbf{Conference} & \textbf{Dates} & \textbf{Location} & \textbf{Website} \\
+                %\textbf{\hyperref[lab:umap2023]{UMAP 2023}}  & June 26 -- 29, 2023  & Limassol, Cyprus    & \url{https://www.um.org/umap2023/}  \\
+                %TABLE__COOP_BEGIN
+                %TEMPLATE:\textbf{\hyperref[lab:%EVENT_ID%]{%EVENT_SHORT%}}  & %MONTH_SHORT_BEGIN% %BEGIN_DAY% -- %MONTH_SHORT_END% %END_DAY%, %YEAR%   & %LOCATION%  & %URL% \\
+                %TABLE_COOP_CONTENT
+                %TABLE_COOP_END
+            \end{tblr}
+        \end{table}
+
+    \end{titlepage}
+
+
+    \section*{SIGWEB SPONSORED CONFERENCES}
+
+    Below is an overview of conferences sponsored by SIGWEB, listed in ascending order of when the
+    conference takes place. The conference descriptions are mostly derived from their individual
+    announcements and web sites, with editorial amendments.
+
+
+%DETAILS_START
+
+%TEMPLATE_START
+    \begin{samepage}
+        \subsection*{%EVENT_NAME%}
+        \label{lab:%EVENT_ID%}
+
+%DESCRIPTION%
+
+        \hfill \hyperref[first]{[Back to First Page]}
+        \nopagebreak
+        \begin{table}[h!]
+            \begin{tblr}{
+                column{1} = {wd = 4cm},
+            }
+                Dates & %MONTH_LONG_BEGIN% %BEGIN_DAY% -- %MONTH_LONG_END% %END_DAY%, %YEAR% \\
+                Location & %LOCATION% \\
+                URL & %URL%
+
+
+            \end{tblr}
+        \end{table}
+    \end{samepage}
+
+
+%TEMPLATE_END
+
+%DETAILS_CONTENT
+
+%DETAILS_END
+
+    \section*{SIGWEB COOPERATING CONFERENCES}
+
+%DETAILS_COOP_START
+%template is equals to the other template
+
+%DETAILS_COOP_CONTENT
+
+%DETAILS_COOP_END
+
+
+
+\end{document}
